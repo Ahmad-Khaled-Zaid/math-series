@@ -46,7 +46,7 @@ def test_lucas_one():
 
 def test_lucas_eight():
     actual = math_series.lucas(8)
-    expected = 29 
+    expected = 29
     assert expected == actual
 
 
