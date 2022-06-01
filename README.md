@@ -11,7 +11,7 @@
 ## How to initialize/run your application
 the application run by running the test_series.py file
 ## How to use your library (where applicable)?
-I used py test to run the tests
+I used pytest library to run the tests
 
 ## How do you run tests?
 I created multiple test units and they are running by running the test_series.py file
