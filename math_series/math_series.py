@@ -2,7 +2,7 @@ def fibonacci(n):
     if type(n) != int:
         return "wrong input,please Enter integer value"
     if n < 0:
-        return "please enter positive term"
+        return "please enter positive nth-term"
     if n == 1 or n == 0:
         return n
     else:
@@ -10,10 +10,14 @@ def fibonacci(n):
 
 
 def lucas(n):
-    if n == 2:
-        return n - 1
+    if type(n) != int:
+        return "wrong input,please Enter integer value"
+    if n < 0:
+        return "please enter positive nth-term"
+    if n == 0:
+        return 2
     elif n == 1:
-        return n + 1
+        return 1
     else:
         return lucas(n - 1) + lucas(n - 2)
 
