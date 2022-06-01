@@ -38,16 +38,28 @@ def test_fibonacci_not_integer():
     assert expected == actual
 
 
-# def test_lucas_one():
-#     actual = math_series.lucas(1)
-#     expected = 2
-#     assert expected == actual
-#
-#
-# def test_lucas_eight():
-#     actual = math_series.lucas(8)
-#     expected = 29
-#     assert expected == actual
+def test_lucas_one():
+    actual = math_series.lucas(1)
+    expected = 1
+    assert expected == actual
+
+
+def test_lucas_eight():
+    actual = math_series.lucas(8)
+    expected = 47
+    assert expected == actual
+
+
+def test_lucas_seven():
+    actual = math_series.lucas(7)
+    expected = 29
+    assert expected == actual
+
+
+def test_lucas_zero():
+    actual = math_series.lucas(0)
+    expected = 2
+    assert expected == actual
 
 
 def test_lucas_negative():
@@ -60,3 +72,15 @@ def test_lucas_not_integer():
     actual = math_series.lucas("blablabla")
     expected = "wrong input,please Enter integer value"
     assert expected == actual
+
+
+def test_sum_series():
+    actual = math_series.sum_series(10)
+    expected = 55
+    assert actual == expected
+
+
+def test_sum_series():
+    actual = math_series.sum_series(0, 2, 1)
+    expected = 2
+    assert actual == expected
