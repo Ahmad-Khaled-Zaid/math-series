@@ -6,7 +6,7 @@
 
 ## Links and Resources
 
-### [Math series pull request](https://github.com/Ahmad-Khaled-Zaid/math-series/pull/11)
+### [Math series pull request](https://github.com/Ahmad-Khaled-Zaid/math-series/pull/12)
 
 ## How to initialize/run your application
 the application run by running the test_series.py file
